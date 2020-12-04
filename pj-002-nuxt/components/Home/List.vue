@@ -21,15 +21,18 @@ export default {
     items: [
       {
         message: 'HOME',
-        japanese: 'ホーム'
+        japanese: 'ホーム',
+        url: '/'
       },
       {
         message: 'WHO WE ARE',
-        japanese: '私たちについて'
+        japanese: '私たちについて',
+        url: ''
       },
       {
         message: 'WHAT WE DO',
-        japanese: 'サービス・製品'
+        japanese: 'サービス・製品',
+        url: ''
       },
       {
         message: 'NEWS',
@@ -38,15 +41,18 @@ export default {
       },
       {
         message: 'CAREERS',
-        japanese: '採用情報'
+        japanese: '採用情報',
+        url: ''
       },
       {
         message: 'OUR TEAM',
-        japanese: 'メンバー'
+        japanese: 'メンバー',
+        url: ''
       },
       {
         message: 'COMPANY',
-        japanese: '企業情報'
+        japanese: '企業情報',
+        url: ''
       }
     ]
   })

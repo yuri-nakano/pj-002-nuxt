@@ -1,6 +1,6 @@
 <template lang="pug">
   div.top
-    img.wolf(src="../assets/logo.png")
+    img.wolf(src="@/assets/logo.png")
 </template>
 
 <style scoped lang="scss">

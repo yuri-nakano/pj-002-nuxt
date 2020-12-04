@@ -19,6 +19,7 @@ v-container.container(fluid)
             style="z-index:3000;position: fixed;"
           )
       v-overlay(
+        style="z-index:1000"
         :absolute="absolute"
         :opacity="opacity"
         :color="color"
@@ -43,13 +44,13 @@ v-container.container(fluid)
 
 </template>
 <script>
-import NewsLetter from '@/components/NewsLetter.vue'
-import TopMark from '@/components/TopMark.vue'
-import MenuMark from '@/components/MenuMark.vue'
-import Overlay from '@/components/Overlay.vue'
-import LeftSquare from '@/components/LeftSquare.vue'
-import NewsList from '@/components/NewsList.vue'
-import NewsFooter from '@/components/NewsFooter.vue'
+import NewsLetter from '@/components/News/NewsLetter.vue'
+import TopMark from '@/components/Home/TopMark.vue'
+import MenuMark from '@/components/Home/MenuMark.vue'
+import Overlay from '@/components/Home/Overlay.vue'
+import LeftSquare from '@/components/News/LeftSquare.vue'
+import NewsList from '@/components/News/NewsList.vue'
+import NewsFooter from '@/components/News/NewsFooter.vue'
 export default {
   components: {
     NewsLetter,

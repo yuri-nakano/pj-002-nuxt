@@ -16,6 +16,7 @@ v-container.container(fluid)
                 :overlay="overlay"
               )
         v-overlay(
+
           :absolute="absolute"
           :opacity="opacity"
           :color="color"
@@ -38,15 +39,15 @@ v-container.container(fluid)
 
 <script>
 // @ is an alias to /src
-import TopMark from '@/components/TopMark.vue'
-import MenuMark from '@/components/MenuMark.vue'
-import Overlay from '@/components/Overlay.vue'
-import AlertBox from '@/components/AlertBox.vue'
-import FooterLogoMark from '@/components/FooterLogoMark.vue'
-import List from '@/components/List.vue'
-import MenuLine from '@/components/MenuLine.vue'
-import Contact from '@/components/Contact.vue'
-import BottomBtn from '@/components/BottomBtn.vue'
+import TopMark from '@/components/Home/TopMark.vue'
+import MenuMark from '@/components/Home/MenuMark.vue'
+import Overlay from '@/components/Home/Overlay.vue'
+import AlertBox from '@/components/Home/AlertBox.vue'
+import FooterLogoMark from '@/components/Home/FooterLogoMark.vue'
+import List from '@/components/Home/List.vue'
+import MenuLine from '@/components/Home/MenuLine.vue'
+import Contact from '@/components/Home/Contact.vue'
+import BottomBtn from '@/components/Home/BottomBtn.vue'
 export default {
   name: 'Pj002',
   components: {

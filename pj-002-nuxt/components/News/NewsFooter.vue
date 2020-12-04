@@ -5,7 +5,7 @@ div
 </template>
 <style lang="scss" scoped>
 .top {
-  background-image: url('../assets/newslogo.png');
+  background-image: url('../../assets/newslogo.png');
   height: 100px;
   width: 100vw;
   top: 100px;

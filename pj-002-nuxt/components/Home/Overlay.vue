@@ -27,12 +27,12 @@
           BottomBtn
 </template>
 <script>
-import FooterLogoMark from '@/components/FooterLogoMark.vue'
-import List from '@/components/List.vue'
-import MenuLine from '@/components/MenuLine.vue'
-import Contact from '@/components/Contact.vue'
-import BottomBtn from '@/components/BottomBtn.vue'
-import MobileList from '@/components/MobileList.vue'
+import FooterLogoMark from '@/components/Home/FooterLogoMark.vue'
+import List from '@/components/Home/List.vue'
+import MenuLine from '@/components/Home/MenuLine.vue'
+import Contact from '@/components/Home/Contact.vue'
+import BottomBtn from '@/components/Home/BottomBtn.vue'
+import MobileList from '@/components/Home/MobileList.vue'
 export default {
   name: 'Pj002',
   components: {
