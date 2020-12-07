@@ -57,6 +57,7 @@ https://qiita.com/sansaisoba/items/242a8ba95bf70ba179d3
 npx create-nuxt-app pj-002-nuxt とコマンドを打ち、課題の雛形を作成します。
 Nuxtのセットアップは次の画像のように設定してください。
 ![image](https://user-images.githubusercontent.com/64944011/101172656-cbefb780-3684-11eb-81bf-7f7559c1128b.png)
+
 yarnを選択しても良いです。
  
 
