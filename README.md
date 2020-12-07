@@ -62,7 +62,7 @@ Nuxtのセットアップは次の画像のように設定してください。
 yarnを選択しても良いです。
  
 
-Sass
+## Sass
 `npm install sass-loader node-sass`
 # Usage
  
